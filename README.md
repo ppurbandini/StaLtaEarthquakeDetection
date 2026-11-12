@@ -99,6 +99,4 @@ Raw MiniSEED waveform files are excluded from the repository. Refer to data/READ
 
 ## 9. AUTHOR
 
-Independent research project in seismology and seismic signal processing.
-
-Technical focus: Python, ObsPy, seismic waveform processing, STA/LTA triggering, and earthquake detection.
+Independent research project in seismology and computational geophysics, with an interest in numerical modeling, scientific computing, and earthquake-related deformation processes.
