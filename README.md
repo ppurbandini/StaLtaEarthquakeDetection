@@ -39,7 +39,7 @@ Seismic waveform data:
 
 Further information about the datasets is available in data/README.md.
 
-## 4. METHODOLOGY OVERVIEW
+## 4. Methodology Overview
 
 The processing workflow consists of four main stages:
 
@@ -50,7 +50,7 @@ The processing workflow consists of four main stages:
 
 The STA/LTA window lengths and triggering thresholds can be configured in scripts/main.py.
 
-## 5. RESULTS AND VISUALIZATIONS
+## 5. Results and Visualizations
 
 The processing workflow generates three categories of outputs:
 
@@ -76,7 +76,7 @@ results/sensitivity/sta_lta_sensitivity_summary.csv
 
 The summary contains the tested STA and LTA window configurations, fixed trigger thresholds, detection counts, and calculated performance metrics.
 
-## 6. TOOLS AND LIBRARIES
+## 6. Tools and Libraries
 
 o Python
 o ObsPy
@@ -85,18 +85,18 @@ o NumPy
 o Pandas
 o Matplotlib
 
-## 7. LIMITATIONS
+## 7. Limitations
 
 This project uses waveform recordings from a single seismic station due to data availability constraints. Therefore, the analysis focuses on single-station STA/LTA triggering rather than multi-station earthquake association or earthquake location.
 
 Additionally, the waveform dataset consists of catalog-selected earthquake recordings rather than an independently scanned continuous waveform archive. Consequently, the project focuses on examining triggering behavior and parameter sensitivity within known earthquake waveform windows.
 
-## 8. REPRODUCIBILITY
+## 8. Reproducibility
 
 The Python scripts and processing parameters are provided in this repository to document the analysis workflow.
 
 Raw MiniSEED waveform files are excluded from the repository. Refer to data/README.md for dataset information and retrieval procedures.
 
-## 9. AUTHOR
+## 9. Author
 
 Independent research project in seismology and computational geophysics, with an interest in numerical modeling, scientific computing, and earthquake-related deformation processes.
